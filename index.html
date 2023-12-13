@@ -5,16 +5,14 @@
     <meta name="viewport"
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Netflix</title>
-    <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css"/>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link rel="stylesheet" href="index.css">
+    <title>Kong flix</title>
+    <link rel="stylesheet" href="styles/main.css">
 </head>
 <body>
     <nav>
         <div class="left">
             <div class="logo">
-                <a href="#"><img src="./img/logo.png" alt=""></a>
+                <a href="#"><img src="./image/logo.png" alt=""></a>
             </div>
             <div class="mobile-menu">메뉴</div>
             <ul class="menu-list">
@@ -57,16 +55,17 @@
         </div>
     </nav>
     <main>
-        <div class="video">
-            <video src="./video/doctor.mp4" autoplay muted loop></video>
+        <div class="img">
+            <img src="assets/images/noRyang.png" autoplay muted loop></img>
         </div>
         <div class="description">
-            <h1>Doctor Strange 2</h1>
-            <h3>매주 새로운 트레일러 공개</h3>
+            <h1>노량: 죽음의 바다 개봉</h1>
+            <h3>이순신 시리즈의 마지막 시리즈</h3>
             <p>
-                5월, 차원의 경계가 무너지고 닥터 스트레인지가 온다
-                전 세계를 뒤흔들 역대급 멀티버스 전쟁의 시작!
-                [닥터 스트레인지: 대혼돈의 멀티버스] 티저 예고편 공개!
+                임진왜란 발발로부터 7년이 지난 1598년 12월. 
+                이순신(김윤석)은 왜군의 수장이던 도요토미 히데요시가 갑작스럽게 사망한 뒤 
+                왜군들이 조선에서 황급히 퇴각하려 한다는 것을 알게 된다. 
+                “절대 이렇게 전쟁을 끝내서는 안 된다”
             </p>
             <div class="buttons">
                 <button class="play"><i class="fa-solid fa-play"></i><span>재생</span></button>
@@ -75,40 +74,64 @@
         </div>
         <div class="age-info">
             <i class="fa-solid fa-rotate-right"></i>
-            <div class="age">15+</div>
+            <div class="age">12+</div>
         </div>
     </main>
     <section>
-        <div class="content-list">
-            <h1>한국이 만든 콘텐츠</h1>
-            <div class="slider">
+        <p class="content-list">한국이 만든 콘텐츠</p>
+            <section class="poster-preview">
+                <div class="poster-row">
+                    <img class="poster" src="assets/images/poster-1.png">
+                </div>
             </div>
-            <div class="prev"><i class="fa-solid fa-angle-right prev-arrow"></i></div>
-            <div class="next"><i class="fa-solid fa-angle-right"></i></div>
-        </div>
-        <div class="content-list">
-            <h1>지금 뜨는 콘텐츠</h1>
-            <div class="slider">
+            <div class="poster-preview">
+                <div class="poster-row">
+                    <img class="poster" src="assets/images/poster-2.png">
+                </div>
             </div>
-            <div class="prev"><i class="fa-solid fa-angle-right prev-arrow"></i></div>
-            <div class="next"><i class="fa-solid fa-angle-right"></i></div>
-        </div>
-        <div class="content-list">
-            <h1>오늘 한국의 TOP 10 콘텐츠</h1>
-            <div class="slider">
+            <div class="poster-preview">
+                <div class="poster-row">
+                    <img class="poster" src="assets/images/poster-3.png">
+                </div>
             </div>
-            <div class="prev"><i class="fa-solid fa-angle-right prev-arrow"></i></div>
-            <div class="next"><i class="fa-solid fa-angle-right"></i></div>
-        </div>
+            <div class="poster-preview">
+                <div class="poster-row">
+                    <img class="poster" src="assets/images/poster-4.png">
+                </div>
+            </div>
+            <div class="poster-preview">
+                <div class="poster-row">
+                    <img class="poster" src="assets/images/poster-5.png">
+                </div>
+            </div>
+            <div class="poster-preview">
+                <div class="poster-row">
+                    <img class="poster" src="assets/images/poster-6.png">
+                </div>
+            </div>
+            <div class="poster-preview">
+                <div class="poster-row">
+                    <img class="poster" src="assets/images/poster-7.png">
+                </div>
+            </div>
+            <div class="poster-preview">
+                <div class="poster-row">
+                    <img class="poster" src="assets/images/poster-8.png">
+                </div>
+            </div>
+            <div class="poster-preview">
+                <div class="poster-row">
+                    <img class="poster" src="assets/images/poster-9.png">
+                </div>
+            </div>
+            <div class="poster-preview">
+                <div class="poster-row">
+                    <img class="poster" src="assets/images/poster-10.png">
+                </div>
+            </div>
     </section>
     <footer>
         <div class="wrap">
-            <div class="social-icons">
-                <i class="fa-brands fa-facebook-square"></i>
-                <i class="fa-brands fa-instagram"></i>
-                <i class="fa-brands fa-twitter"></i>
-                <i class="fa-brands fa-youtube"></i>
-            </div>
             <div class="options">
                 <div class="option">자막 및 음성</div>
                 <div class="option">음성 지원</div>
@@ -126,38 +149,5 @@
             </div>
         </div>
     </footer>
-    <script>
-        const next = document.querySelectorAll('.next');
-        const prev = document.querySelectorAll('.prev');
-        const slider = document.querySelectorAll('.slider')
-
-        for(let i =0;i<slider.length;i++){
-            getMovies(slider[i],i+1);
-            makeSlider(slider[i],prev[i],next[i]);
-        }
-        function makeSlider(element,prev,next){
-            next.addEventListener('click',()=>{
-                const offsetX = element.offsetWidth;
-                element.scrollBy(offsetX,0)
-            })
-            prev.addEventListener('click',()=>{
-                const offsetX = element.offsetWidth;
-                element.scrollBy(-offsetX,0)
-            })
-        }
-        function getMovies(element,page){
-            fetch(`https://yts.mx/api/v2/list_movies.json?limit=20&sort_by=rating&page=${page}`)
-                .then(data=>data.json())
-                .then(data=>{
-                    const movies = data.data.movies;
-                    movies.forEach(movie=>{
-                        const div = document.createElement('div');
-                        div.className='item';
-                        div.innerHTML = `<img src="${movie.medium_cover_image}" alt="">`;
-                        element.appendChild(div);
-                    })
-                })
-        }
-    </script>
 </body>
 </html>
