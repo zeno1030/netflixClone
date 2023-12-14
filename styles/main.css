@@ -246,7 +246,7 @@
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     grid-gap: 1em;
-    margin-top: 40px; /* 상단에 20px의 공간 추가 */
+    margin-top: 40px; /* 상단에 40px의 공간 추가 */
   }
   footer .wrap .options .option {
     color: #6f6f6f;
@@ -355,6 +355,4 @@
       font-size: 0.5rem;
     }
   }
-  
-  /*# sourceMappingURL=index.css.map */
   
